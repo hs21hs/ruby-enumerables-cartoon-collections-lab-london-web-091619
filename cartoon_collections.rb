@@ -16,15 +16,7 @@ def summon_captain_planet(ar)
 end
 
 def long_planeteer_calls(ar)
-  ar.map do |b|
-    if b.length>4 
-return true 
-end
-end
-ar.map do |b|
-    if b.length<=4
-      return false
-    end
+  
   end
     
 
